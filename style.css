@@ -22,7 +22,7 @@ header {
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: white;
     padding: 50px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 header h1 {
@@ -193,6 +193,8 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 16px;
+    
+ justify-content: flex-start;
 }
 
 .logo-box img {
@@ -212,5 +214,6 @@ a:hover {
     height: 40px;
   }
 }
+
 
 
