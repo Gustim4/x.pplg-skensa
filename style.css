@@ -19,10 +19,10 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: white;
-    padding: 50px 20px;
-    text-align: left;
+    background-image: url("bg-header");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header h1 {
@@ -220,6 +220,22 @@ a:hover {
     justify-content: center;
     text-align: center;
 }
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); 
+}
+header {
+    position: relative;
+}
+
+.header-flex {
+    position: relative;
+    z-index: 1;
+}
+
+
 
 
 
